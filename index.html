@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Typing Speed checker website">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Debraj Dey">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/keyboard-solid.ico">
+    <script src="https://kit.fontawesome.com/d6a7a14b13.js" crossorigin="anonymous"></script>
+    <title>SpeedType</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="#"><i class="fa-regular fa-keyboard" style="color: #ff3700;"></i></a>
+            <h1><a href="#"><span>S</span>peed<span>T</span>ype</a></h1>
+        </div>
+        <div>
+            <a href="https://github.com/Debraj-Dey" target="_blank"><i class="fa-brands fa-github fa-xl"
+                    style="color: #ffffff; " onmouseover="this.style.color='#a7a7a7'"
+                    onmouseout="this.style.color='#ffffff'"></i></a>
+            <a href="https://www.linkedin.com/in/debraj-dey/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"
+                    style="color: #ffffff;" onmouseover="this.style.color='#0080ff'"
+                    onmouseout="this.style.color='#ffffff'"></i></a>
+        </div>
+    </header>
+    <main>
+        <input type="text" class="input-field">
+        <div class="contest-parameters">
+            <p class="time-left">Time :
+                <select id="timeInput" name="timeInput">
+                    <option value="15">15 s</option>
+                    <option value="30">30 s</option>
+                    <option value="60">60 s</option>
+                </select>
+            </p>
+            <p class="word-count">Word Count :
+                <select id="countInput" name="countInput">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="50">50</option>
+                </select>
+            </p>
+            <p class="wpm">WPM : <span>0</span></p>
+            <p class="mistakes">Mistakes : <span>0</span></p>
+            <p class="cpm">CPM : <span>0</span></p>
+        </div>
+        <div class="typing-text">
+            <p></p>
+        </div>
+        <div class="accuracy">
+            <p>ACCURACY : <span>0</span>%</p>
+        </div>
+        <button>New Game <i class="fa-solid fa-rotate-right"></i></button>
+    </main>
+    <footer>
+        <p> &#169; Made by Debraj</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
