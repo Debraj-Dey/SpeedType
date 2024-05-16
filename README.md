@@ -2,7 +2,7 @@
 
 <p align="center"><b>Typing speed testing website using JS</b> <br /><br /></p>
 
-**SpeedType** is a web-based typing speed checker application that allows users to measure their typing speed and accuracy in real-time. Whether you're a novice looking to improve your typing skills or a seasoned typist aiming to maintain your proficiency, SpeedType provides an intuitive platform to achieve your goals.
+**SpeedType** is a web-based typing speed checker application that allows users to measure their typing speed and accuracy in real-time. Whether you're a novice looking to improve your typing skills or a seasoned typist aiming to maintain your proficiency, **SpeedType** provides an intuitive platform to achieve your goals.
 <br/><br/>
 
 ## ✨Features
